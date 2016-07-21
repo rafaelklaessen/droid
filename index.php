@@ -32,22 +32,17 @@
     <!-- Display -->
     <main id="view" class="view">
       <?php
-        $apps = simplexml_load_file('apps/apps.xml') or die('Error: Can\'t read apps file!');
-      ?>
-      <?php foreach ($apps as $app): ?>
-        <section id="<?= $app->slug ?>" class="app">
-          <?php
-            /**
-              * Get app main file. This file includes the views etc.
-              */
-            $appLocation = $appFolder . '/' . $app->slug;
-            include $appLocation . '/app.php';
-          ?>
-        </section>
-      <?php endforeach; ?>
-      <!-- Include homescreen and lockscreen -->
-      <?php
+        /**
+          * Include apps
+          */
+        require 'apps.php';
+        /**
+          * Include homescreen
+          */
         require 'system_files/homescreen.php';
+        /**
+          * Include lockscreen
+          */
         require 'system_files/lockscreen.php';
       ?>
     </main>
