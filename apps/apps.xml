@@ -2,10 +2,19 @@
 <apps>
   <app system-app="true">
     <name>Settings</name>
-    <path>settings</path>
+    <slug>settings</slug>
     <icon>settings-icon.png</icon>
     <author>Droid-Tec</author>
-    <description>All settings</descriptions>
+    <description>All settings</description>
+    <size>69MB</size>
+    <release-date>21-07-2016</release-date>
+  </app>
+  <app system-app="true">
+    <name>Clock</name>
+    <slug>clock</slug>
+    <icon>clock-icon.png</icon>
+    <author>Droid-Tec</author>
+    <description>Clock</description>
     <size>69MB</size>
     <release-date>21-07-2016</release-date>
   </app>
