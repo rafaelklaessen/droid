@@ -1,0 +1,12 @@
+<!-- This file contains all appnames, -directories and metadata -->
+<apps>
+  <app system-app="true">
+    <name>Settings</name>
+    <path>settings</path>
+    <icon>settings-icon.png</icon>
+    <author>Droid-Tec</author>
+    <description>All settings</descriptions>
+    <size>69MB</size>
+    <release-date>21-07-2016</release-date>
+  </app>
+</apps>
