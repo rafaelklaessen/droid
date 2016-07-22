@@ -13,6 +13,12 @@
     <!-- jQuery v3.1.0 -->
     <script type="text/javascript" src="api/js/jquery.js"></script>
 
+    <!-- Site files -->
+    <!-- Site CSS -->
+    <link rel="stylesheet" type="text/css" href="site/css/site.css">
+    <!-- Site JavaScript -->
+    <script type="text/javascript" src="site/js/site.js"></script>
+
     <!-- API -->
     <!-- API CSS -->
     <link rel="stylesheet" type="text/css" href="api/css/droid.css">
@@ -29,8 +35,12 @@
 
   </head>
   <body>
+    <!-- Page header -->
+    <header id="site-header" class="site-header">
+      <h1 class="page-title">Online Android emulator</h1>
+    </header>
     <!-- Display -->
-    <main id="view" class="view">
+    <main id="device-view" class="device-view">
       <?php
         /**
           * Include apps
@@ -48,5 +58,6 @@
     </main>
     <!-- System buttons -->
     <section id="sys-btns-container" class="sys-btns-container"></section>
+
   </body>
 </html>

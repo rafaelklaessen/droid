@@ -1,0 +1,30 @@
+/**
+  * Droid CSS API
+  * Contains all default styling (eg buttons).
+  */
+@import 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900';
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+/**
+  * Locate device
+  */
+#device-view {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 435px;
+  height: 773px;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.21);
+}
+
+.app {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}

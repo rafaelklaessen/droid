@@ -1,0 +1,15 @@
+/**
+  * Site layout file (eg header)
+  * The emulator itself should work without this file!
+  */
+body {
+  background-color: #ECEFF1
+}
+#site-header {
+  padding: 25px;
+  margin-bottom: 25px;
+}
+#site-header .page-title {
+  margin: 0;
+  font-weight: 300;
+}
