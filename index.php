@@ -1,5 +1,14 @@
 <?php
+  /**
+    * Set folders
+    */
   $appFolder = 'apps';
+  $galleryFolder = 'files/gallery';
+  $gallery_wallpaperFolder = 'wallpapers';
+  /**
+    * Set default wallpaper
+    */
+  $default_wallpaper = $galleryFolder . '/' . $gallery_wallpaperFolder . '/bg1.jpg';
 ?>
 <!DOCTYPE html>
 <html>
@@ -27,11 +36,13 @@
 
     <!-- System files -->
     <!-- System files CSS -->
-    <link rel="stylesheet" type="text/css" href="system_files/gui/css/lockscreen.css">
+    <link rel="stylesheet" type="text/css" href="system_files/gui/css/background.css">
     <link rel="stylesheet" type="text/css" href="system_files/gui/css/homescreen.css">
+    <link rel="stylesheet" type="text/css" href="system_files/gui/css/lockscreen.css">
     <!-- System files JavaScript -->
-    <script type="text/javascript" src="system_files/gui/js/lockscreen.js"></script>
     <script type="text/javascript" src="system_files/gui/js/homescreen.js"></script>
+    <script type="text/javascript" src="system_files/gui/js/lockscreen.js"></script>
+    <script type="text/javascript" src="system_files/gui/js/background.js"></script>
 
   </head>
   <body>
@@ -42,6 +53,10 @@
     <!-- Display -->
     <main id="device-view" class="device-view">
       <?php
+        /**
+          * Include background
+          */
+        require 'background.php';
         /**
           * Include apps
           */

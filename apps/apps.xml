@@ -1,6 +1,6 @@
 <!-- This file contains all appnames, -directories and metadata -->
 <apps>
-  <app system-app="true">
+  <app system-app="true" pre-installed="true">
     <name>Settings</name>
     <slug>settings</slug>
     <icon>settings-icon.png</icon>
@@ -16,7 +16,7 @@
       <release-date>21-07-2016</release-date>
     </meta-data>
   </app>
-  <app system-app="true">
+  <app system-app="true" pre-installed="true">
     <name>Clock</name>
     <slug>clock</slug>
     <icon>clock-icon.png</icon>
