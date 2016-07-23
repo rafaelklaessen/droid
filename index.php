@@ -2,6 +2,9 @@
   /**
     * Set folders
     */
+  $systemfilesFolder = 'system_files';
+  $systemresourcesFolder = 'system_files/resources';
+  $systemiconsFolder = 'system_files/system_icons';
   $appFolder = 'apps';
   $galleryFolder = 'files/gallery';
   $gallery_wallpaperFolder = 'wallpapers';
@@ -36,13 +39,16 @@
 
     <!-- System files -->
     <!-- System files CSS -->
-    <link rel="stylesheet" type="text/css" href="system_files/gui/css/background.css">
-    <link rel="stylesheet" type="text/css" href="system_files/gui/css/homescreen.css">
-    <link rel="stylesheet" type="text/css" href="system_files/gui/css/lockscreen.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo $systemresourcesFolder; ?>/css/background.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo $systemresourcesFolder; ?>/css/homescreen.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo $systemresourcesFolder; ?>/css/lockscreen.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo $systemresourcesFolder; ?>/css/statusbar.css">
     <!-- System files JavaScript -->
-    <script type="text/javascript" src="system_files/gui/js/homescreen.js"></script>
-    <script type="text/javascript" src="system_files/gui/js/lockscreen.js"></script>
-    <script type="text/javascript" src="system_files/gui/js/background.js"></script>
+    <script type="text/javascript" src="<?php echo $systemresourcesFolder; ?>/js/homescreen.js"></script>
+    <script type="text/javascript" src="<?php echo $systemresourcesFolder; ?>/js/lockscreen.js"></script>
+    <script type="text/javascript" src="<?php echo $systemresourcesFolder; ?>/js/background.js"></script>
+    <script type="text/javascript" src="<?php echo $systemresourcesFolder; ?>/js/statusbar.js"></script>
+    <script type="text/javascript" src="<?php echo $systemresourcesFolder; ?>/js/time.js"></script>
 
   </head>
   <body>
@@ -56,7 +62,7 @@
         /**
           * Include background
           */
-        require 'background.php';
+        require 'system_files/background.php';
         /**
           * Include apps
           */
@@ -69,6 +75,10 @@
           * Include lockscreen
           */
         require 'system_files/lockscreen.php';
+        /**
+          * Include status bar
+          */
+        require 'system_files/statusbar.php';
       ?>
     </main>
     <!-- System buttons -->

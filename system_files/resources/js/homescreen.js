@@ -1,3 +1,6 @@
+/**
+  * Home screen JavaScript
+  */
 (function($) {
   $(document).ready(function() {
     // Loop through every app icon
@@ -8,7 +11,7 @@
         var app = $(this).attr('app');
         // Launch app
         Droid.openApp(app);
-    });
+      });
     });
   });
-}(jQuery))
+}(jQuery));

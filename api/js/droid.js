@@ -26,7 +26,7 @@ $.fn.destroy = function() {
 }
 /**
   * Add jQuery shortcut for .onstart(callback) instead of .on('start', callback)
-*/
+  */
 $.fn.ondestroy = function(callback) {
   return this.on('destroy', callback);
 }
