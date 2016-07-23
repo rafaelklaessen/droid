@@ -48,7 +48,7 @@
   <body>
     <!-- Page header -->
     <header id="site-header" class="site-header">
-      <h1 class="page-title">Online Android emulator</h1>
+      <h1 class="page-title">Online Android emulator</h1><img id="loading" class="loading-icon" src="site/images/loading.gif" alt="Loading icon">
     </header>
     <!-- Display -->
     <main id="device-view" class="device-view">

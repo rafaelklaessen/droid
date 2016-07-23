@@ -8,8 +8,16 @@ body {
 #site-header {
   padding: 25px;
   margin-bottom: 25px;
+  height: 88px;
 }
 #site-header .page-title {
+  float: left;
   margin: 0;
   font-weight: 300;
+}
+#site-header .loading-icon {
+  float: left;
+  margin-left: 15px;
+  height: 100%;
+  width: auto;
 }
