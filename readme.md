@@ -1,3 +1,3 @@
 #Droid
 
-An online Android emulator. Built by Rafael Klaessen, Wouter Molhoek, Peter Christiaanse, Marijn Pool and Gijs Verdonschot.
+An online Android simulator. Built by Rafael Klaessen, Wouter Molhoek, Peter Christiaanse, Marijn Pool and Gijs Verdonschot.

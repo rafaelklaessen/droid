@@ -3,12 +3,24 @@
   * Contains all default styling (eg buttons).
   */
 @import 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900';
+/**
+  * Font and body margin fix
+  */
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
 }
+/**
+  * Set box-sizing to border-box;
+  */
 * {
   box-sizing: border-box;
+}
+/**
+  * Remove margin
+  */
+h1, h2, h3, h4, h5, h6, p, figure {
+  margin: 0;
 }
 /**
   * Locate device
@@ -38,10 +50,10 @@ body {
   -webkit-transition: all 0.2s ease-in-out;
 }
 .app.launched {
-  top: 0;
+  top: 36px;
 }
 .app.closing-posfix {
-  top: 50%;
+  top: calc(50% + 36px);
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   opacity: 1;
@@ -55,4 +67,20 @@ body {
   transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
+}
+/**
+  * App Bar
+  */
+.app .appbar {
+  position: relative;
+  padding: 12px 24px;
+  height: 84px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.14),0 4px 8px rgba(0, 0, 0, 0.28);
+}
+.app .appbar .app-name {
+  position: absolute;
+  bottom: 30px;
+  left: 24px;
+  font-size: 24px;
+  font-weight: 500;
 }

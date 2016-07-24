@@ -5,9 +5,10 @@
     <slug>settings</slug>
     <icon>settings-icon.png</icon>
     <colors>
-      <primary></primary>
-      <secondary></secondary>
-      <btns></btns>
+      <colorPrimary>#3F51B5</colorPrimary>
+      <colorPrimaryDark>#303F9F</colorPrimaryDark>
+      <colorAccent>#FF4081</colorAccent>
+      <colorText>#FFFFFF</colorText>
     </colors>
     <meta-data>
       <author>Droid-Tec</author>
@@ -21,9 +22,10 @@
     <slug>clock</slug>
     <icon>clock-icon.png</icon>
     <colors>
-      <primary></primary>
-      <secondary></secondary>
-      <btns></btns>
+      <colorPrimary>#3F51B5</colorPrimary>
+      <colorPrimaryDark>#303F9F</colorPrimaryDark>
+      <colorAccent>#FF4081</colorAccent>
+      <colorText>#FFFFFF</colorText>
     </colors>
     <meta-data>
       <author>Droid-Tec</author>

@@ -2,6 +2,7 @@
   /**
     * Set folders
     */
+  $apiFolder = 'api';
   $systemfilesFolder = 'system_files';
   $systemresourcesFolder = 'system_files/resources';
   $systemiconsFolder = 'system_files/system_icons';
@@ -12,6 +13,10 @@
     * Set default wallpaper
     */
   $default_wallpaper = $galleryFolder . '/' . $gallery_wallpaperFolder . '/bg1.jpg';
+  /**
+    * Load up PHP API
+    */
+  require $apiFolder . '/php/droid.php';
 ?>
 <!DOCTYPE html>
 <html>
@@ -23,7 +28,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- jQuery v3.1.0 -->
-    <script type="text/javascript" src="api/js/jquery.js"></script>
+    <script type="text/javascript" src="<?php echo $apiFolder; ?>/js/jquery.js"></script>
 
     <!-- Site files -->
     <!-- Site CSS -->
@@ -33,9 +38,9 @@
 
     <!-- API -->
     <!-- API CSS -->
-    <link rel="stylesheet" type="text/css" href="api/css/droid.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo $apiFolder; ?>/css/droid.css">
     <!-- API JavaScript -->
-    <script type="text/javascript" src="api/js/droid.js"></script>
+    <script type="text/javascript" src="<?php echo $apiFolder; ?>/js/droid.js"></script>
 
     <!-- System files -->
     <!-- System files CSS -->
@@ -54,7 +59,7 @@
   <body>
     <!-- Page header -->
     <header id="site-header" class="site-header">
-      <h1 class="page-title">Online Android emulator</h1><img id="loading" class="loading-icon" src="site/images/loading.gif" alt="Loading icon">
+      <h1 class="page-title">Online Android simulator</h1><img id="loading" class="loading-icon" src="site/images/loading.gif" alt="Loading icon">
     </header>
     <!-- Display -->
     <main id="device-view" class="device-view">

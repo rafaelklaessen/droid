@@ -8,7 +8,7 @@
       */
     $appLocation = $appFolder . '/' . $app->slug;
   ?>
-  <section id="<?= $app->slug ?>" class="app" system-app="<?= $app['system-app'] ?>" app-icon="<?= $appLocation . '/' . $app->icon ?>">
+  <section id="<?= $app->slug ?>" class="app" system-app="<?= $app['system-app'] ?>" app-icon="<?= $appLocation . '/' . $app->icon ?>" data-colors='{"colorPrimary": "<?= $app->colors->colorPrimary ?>", "colorPrimaryDark": "<?= $app->colors->colorPrimaryDark ?>", "colorAccent": "<?= $app->colors->colorAccent ?>", "colorText": "<?= $app->colors->colorText ?>"}'>
     <?php
       /**
         * Get app main file. This file includes the views etc.

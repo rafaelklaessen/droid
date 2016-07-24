@@ -16,6 +16,7 @@
   padding: 10px;
   width: 20%;
   text-align: center;
+  cursor: pointer;
 }
 #homescreen .app-icon .icon {
   margin-bottom: 10px;
@@ -23,7 +24,7 @@
   height: auto;
 }
 #homescreen .app-icon .app-name {
-  margin: 0;
+  margin: 0; 
   font-size: 0.8em;
   font-weight: 400;
   text-shadow: 0 2px rgba(0, 0, 0, 0.26);
