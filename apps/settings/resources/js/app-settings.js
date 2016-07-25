@@ -4,3 +4,9 @@ $('#settings').onstart(function() {
 $('#settings').ondestroy(function() {
   // Define stuff on destroy
 });
+settings.actionOne = function() {
+  Droid.toast('kill');
+}
+settings.actionTwo = function() {
+  Droid.toast('kees');
+}
