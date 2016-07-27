@@ -16,13 +16,9 @@
       foreach ($arr as $itemName => $itemData) {
         // Set onclickAction variable
         $onclickAction = '';
-        // If an onclick action is defined and is not emptym set onclickAction to it.
+        // If an onclick action is defined and is not empty, set onclickAction to it and add onclick=''
         if (isset($itemData['onclick']) && !empty(trim($itemData['onclick']))) {
-          $onclickAction = $itemData['onclick'];
-        }
-        // Check if onclickAction is still ''. If not, an onclick action was set. Add onclick=''
-        if (!empty(trim($onclickAction))) {
-          $onclickAction = "onclick='{$onclickAction}'";
+          $onclickAction = "onclick='{$itemData['onclick']}'";
         }
         // Create a li with set variables (eg onclickAction)
         $list = "{$list}<li class='list-item' {$onclickAction}>{$itemName}</li>";

@@ -6,7 +6,7 @@
         'onclick' => 'settings.actionOne()'
       ),
       'Item2' => array(
-        
+        'onclick' => 'settings.actionTwo()'
       )
     ));
     Droid::renderAppBar($app->name, $app->colors->colorPrimary, $app->colors->colorText, $list);
