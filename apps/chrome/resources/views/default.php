@@ -1,14 +1,7 @@
 <!-- Default view -->
 <section id="default-view">
   <?php
-    $list = Droid::makeList(array(
-      'Item' => array(
-        'onclick' => 'chrome.actionOne()'
-      ),
-      'Item2' => array(
-        'onclick' => 'chrome.actionTwo()'
-      )
-    ));
+    $list = '';
     Droid::renderAppBar($app->name, $app->colors->colorPrimary, $app->colors->colorText, $list);
   ?>
   doei
