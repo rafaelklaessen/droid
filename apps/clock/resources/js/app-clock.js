@@ -1,6 +1,6 @@
-$('#settings').onstart(function() {
+$('#clock').onstart(function() {
   // Define stuff on start
 });
-$('#settings').ondestroy(function() {
+$('#clock').ondestroy(function() {
   // Define stuff on destroy
 });
