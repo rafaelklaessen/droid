@@ -29,8 +29,10 @@
     }
     /**
       * Renders top bar
+      * @param {string} name of the app
       * @param {string} color of the app bar
       * @param {string} color of the text
+      * @param {string} menu with with actions
       */
     public static function renderAppBar($appName, $appBarColor, $textColor, $actionList) {
       global $systemiconsFolder;
