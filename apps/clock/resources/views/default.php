@@ -9,7 +9,7 @@
         'onclick' => 'chrome.actionTwo()'
       )
     ));
-    Droid::renderAppBar($app->name, $app->colors->colorPrimary, $app->colors->colorText, $app->colors->iconColor, $list);
+    Droid::renderAppBar($app->name, $app->colors->colorPrimary, $app->colors->colorText, $app->colors->colorIcon, $list);
   ?>
   Kees
 </section>

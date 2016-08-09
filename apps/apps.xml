@@ -9,7 +9,7 @@
       <colorPrimaryDark>#303F9F</colorPrimaryDark>
       <colorAccent>#FF4081</colorAccent>
       <colorText>#FFFFFF</colorText>
-      <iconColor>#FFFFFF</iconColor>
+      <colorIcon>#FFFFFF</colorIcon>
     </colors>
     <meta-data>
       <author>Droid-Tec</author>
@@ -27,7 +27,7 @@
       <colorPrimaryDark>#303F9F</colorPrimaryDark>
       <colorAccent>#FF4081</colorAccent>
       <colorText>#FFFFFF</colorText>
-      <iconColor>#FFFFFF</iconColor>
+      <colorIcon>#FFFFFF</colorIcon>
     </colors>
     <meta-data>
       <author>Droid-Tec</author>
@@ -45,7 +45,7 @@
       <colorPrimaryDark>#333333</colorPrimaryDark>
       <colorAccent>#EE6150</colorAccent>
       <colorText>#000000</colorText>
-      <iconColor>#333333</iconColor>
+      <colorIcon>#333333</colorIcon>
     </colors>
     <meta-data>
       <author>Droid-Tec</author>
