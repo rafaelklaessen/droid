@@ -2,6 +2,9 @@
   * Droid CSS API
   * Contains all default styling (eg buttons).
   */
+/**
+  * Import font fromt google fonts
+  */
 @import 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900';
 /**
   * Font and body margin fix

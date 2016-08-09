@@ -32,6 +32,7 @@
       * @param {string} name of the app
       * @param {string} color of the app bar
       * @param {string} color of the text
+      * @param {string} color of the icon(s)
       * @param {string} menu with with actions
       */
     public static function renderAppBar($appName, $appBarColor, $textColor, $iconColor, $actionList) {
