@@ -50,8 +50,26 @@
     <meta-data>
       <author>Droid-Tec</author>
       <description>Google Chrome</description>
-      <size>69MB</size>
+      <size>78MB</size>
       <release-date>21-07-2016</release-date>
+    </meta-data>
+  </app>
+  <app system-app="true" pre-installed="true">
+    <name>About</name>
+    <slug>About</slug>
+    <icon>about-icon.ico</icon>
+    <colors>
+      <colorPrimary>#18ec3a</colorPrimary>
+      <colorPrimaryDark>#0c9122</colorPrimaryDark>
+      <colorAccent>#18ec3a</colorAccent>
+      <colorText>#ffffff</colorText>
+      <colorIcon>#18ec3a</colorIcon>
+    </colors>
+    <meta-data>
+      <author>Marijn Pool</author>
+      <description>About Online Android Simulator</description>
+      <size>30MB</size>
+      <release-date>09-08-2016</release-date>
     </meta-data>
   </app>
 </apps>
