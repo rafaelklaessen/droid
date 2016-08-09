@@ -9,6 +9,9 @@ $('#chrome').onstart(function() {
     // Enter button is pressed, set iframe url
     if (e.which == 13) {
       var url = $('#chrome .chromesearchbar').val();
+      if (url.indexOf('http://') == -1 && url.indexOf('https://') == -1) {
+        url = 'http://' + url;
+      }
       $('#chrome .chromeframe').attr('src', url);
     }
   });
