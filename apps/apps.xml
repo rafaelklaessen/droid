@@ -9,6 +9,7 @@
       <colorPrimaryDark>#303F9F</colorPrimaryDark>
       <colorAccent>#FF4081</colorAccent>
       <colorText>#FFFFFF</colorText>
+      <iconColor>#FFFFFF</iconColor>
     </colors>
     <meta-data>
       <author>Droid-Tec</author>
@@ -26,6 +27,7 @@
       <colorPrimaryDark>#303F9F</colorPrimaryDark>
       <colorAccent>#FF4081</colorAccent>
       <colorText>#FFFFFF</colorText>
+      <iconColor>#FFFFFF</iconColor>
     </colors>
     <meta-data>
       <author>Droid-Tec</author>
@@ -39,10 +41,11 @@
     <slug>chrome</slug>
     <icon>chrome-icon.png</icon>
     <colors>
-      <colorPrimary>#666666</colorPrimary>
-      <colorPrimaryDark>#666666</colorPrimaryDark>
+      <colorPrimary>#F2F2F2</colorPrimary>
+      <colorPrimaryDark>#333333</colorPrimaryDark>
       <colorAccent>#EE6150</colorAccent>
       <colorText>#000000</colorText>
+      <iconColor>#333333</iconColor>
     </colors>
     <meta-data>
       <author>Droid-Tec</author>

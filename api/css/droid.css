@@ -116,3 +116,12 @@ h1, h2, h3, h4, h5, h6, p, figure {
 .app #default-view {
   height: 100%;
 }
+/**
+  * Default element styling
+  */
+input {
+  font: inherit;
+  font-weight: 400;
+  border: 0;
+  outline-width: 0;
+}

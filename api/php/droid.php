@@ -34,17 +34,32 @@
       * @param {string} color of the text
       * @param {string} menu with with actions
       */
-    public static function renderAppBar($appName, $appBarColor, $textColor, $actionList) {
+    public static function renderAppBar($appName, $appBarColor, $textColor, $iconColor, $actionList) {
       // Get the variable globally
       global $systemiconsFolder;
 
+
       // Generate HTML
       $appBar = "
+        <style type='text/css'>
+          .dots {
+            fill: ${textColor};
+          }
+        </style>
         <section class='appbar' style='background-color: {$appBarColor}; color: {$textColor}'>
           <h1 class='app-name'>{$appName}</h1>
           <ul class='action-btn-container'>
             <li class='action-btn'>
-              <figure class='btn'><img src='{$systemiconsFolder}/icon-three-dots.svg'></figure>
+              <figure class='btn'>
+                <svg version='1.1' width='21' height='36' id='Capa_1' viewBox='0 0 58 58' style='enable-background:new 0 0 58 58;' xml:space='preserve'>
+                  <circle style='fill: {$iconColor};' cx='29' cy='7' r='7'/>
+                  <circle style='fill: {$iconColor};' cx='29' cy='51' r='7'/>
+                  <circle style='fill: {$iconColor};' cx='29' cy='29' r='7'/>
+                  <circle style='fill: {$iconColor};' cx='29' cy='7' r='7'/>
+                  <circle style='fill: {$iconColor};' cx='29' cy='51' r='7'/>
+                  <circle style='fill: {$iconColor};' cx='29' cy='29' r='7'/>
+                </svg>
+              </figure>
               {$actionList}
             </li>
           </ul>

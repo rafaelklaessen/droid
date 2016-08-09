@@ -1,7 +1,8 @@
-<svg width="14" height="24" viewBox="0 0 408 408" style="enable-background:new 0 0 408 408;" xmlns="http://www.w3.org/2000/svg">
-<g>
-	<g id="more-vert">
-		<path d="M204,102c28.05,0,51-22.95,51-51S232.05,0,204,0s-51,22.95-51,51S175.95,102,204,102z M204,153c-28.05,0-51,22.95-51,51    s22.95,51,51,51s51-22.95,51-51S232.05,153,204,153z M204,306c-28.05,0-51,22.95-51,51s22.95,51,51,51s51-22.95,51-51    S232.05,306,204,306z" fill="#FFFFFF"/>
-	</g>
-</g>
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"viewBox="0 0 58 58" style="enable-background:new 0 0 58 58;" xml:space="preserve">
+	<circle style="fill:#7383BF;" cx="29" cy="7" r="7"/>
+	<circle style="fill:#7383BF;" cx="29" cy="51" r="7"/>
+	<circle style="fill:#7383BF;" cx="29" cy="29" r="7"/>
+	<circle style="fill:#7383BF;" cx="29" cy="7" r="7"/>
+	<circle style="fill:#7383BF;" cx="29" cy="51" r="7"/>
+	<circle style="fill:#7383BF;" cx="29" cy="29" r="7"/>
 </svg>
