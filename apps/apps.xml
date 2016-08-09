@@ -56,7 +56,7 @@
   </app>
   <app system-app="true" pre-installed="true">
     <name>About</name>
-    <slug>About</slug>
+    <slug>about</slug>
     <icon>about-icon.ico</icon>
     <colors>
       <colorPrimary>#18ec3a</colorPrimary>
@@ -74,7 +74,7 @@
   </app>
   <app system-app="true" pre-installed="true">
     <name>Messenger</name>
-    <slug>Messenger</slug>
+    <slug>messenger</slug>
     <icon>messenger-icon.png</icon>
     <colors>
       <colorPrimary>#0EADF4</colorPrimary>
@@ -92,7 +92,7 @@
   </app>
   <app system-app="true" pre-installed="true">
     <name>Phone</name>
-    <slug>Phone</slug>
+    <slug>phone</slug>
     <icon>phone-icon.png</icon>
     <colors>
       <colorPrimary>#18B0F5</colorPrimary>
