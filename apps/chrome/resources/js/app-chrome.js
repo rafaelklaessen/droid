@@ -9,9 +9,11 @@ $('#chrome').onstart(function() {
     // Enter button is pressed, set iframe url
     if (e.which == 13) {
       var url = $('#chrome .chromesearchbar').val();
+      // If url doesn't contain either http:// or https://, add http:// to url
       if (url.indexOf('http://') == -1 && url.indexOf('https://') == -1) {
         url = 'http://' + url;
       }
+      // Set url
       $('#chrome .chromeframe').attr('src', url);
     }
   });
@@ -19,5 +21,3 @@ $('#chrome').onstart(function() {
 $('#chrome').ondestroy(function() {
   // Define stuff on destroy
 });
-
-setInterval(function() {console.log($(window).scrollTop());}, 1);

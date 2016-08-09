@@ -35,8 +35,10 @@
       * @param {string} menu with with actions
       */
     public static function renderAppBar($appName, $appBarColor, $textColor, $actionList) {
+      // Get the variable globally
       global $systemiconsFolder;
 
+      // Generate HTML
       $appBar = "
         <section class='appbar' style='background-color: {$appBarColor}; color: {$textColor}'>
           <h1 class='app-name'>{$appName}</h1>
@@ -47,6 +49,7 @@
             </li>
           </ul>
         </section>";
+      // Echo HTML
       echo $appBar;
     }
   }
