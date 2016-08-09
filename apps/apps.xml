@@ -34,4 +34,21 @@
       <release-date>21-07-2016</release-date>
     </meta-data>
   </app>
+  <app system-app="true" pre-installed="true">
+    <name>Chrome</name>
+    <slug>chrome</slug>
+    <icon>chrome-icon.png</icon>
+    <colors>
+      <colorPrimary>#666666</colorPrimary>
+      <colorPrimaryDark>#666666</colorPrimaryDark>
+      <colorAccent>#EE6150</colorAccent>
+      <colorText>#000000</colorText>
+    </colors>
+    <meta-data>
+      <author>Droid-Tec</author>
+      <description>Google Chrome</description>
+      <size>69MB</size>
+      <release-date>21-07-2016</release-date>
+    </meta-data>
+  </app>
 </apps>
