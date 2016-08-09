@@ -1,0 +1,6 @@
+.chromeframe {
+  margin: -24px;
+  margin-bottom: 0;
+  width: calc(100% + 48px);
+  height: 100%;
+}
