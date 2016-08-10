@@ -16,6 +16,8 @@ $('#chrome').onstart(function() {
       }
       // Set url
       $('#chrome .chromeframe').attr('src', url);
+      // Blur search input
+      $('#chrome .chromesearchbar').blur();
     } else {
       // A normal key is pressed. If the search bar isn't focussed, focus on it
       if (!$('#chrome .chromesearchbar').is(':focus')) {
