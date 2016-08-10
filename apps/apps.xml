@@ -108,4 +108,22 @@
       <release-date>09-08-2016</release-date>
     </meta-data>
   </app>
+  <app system-app="true" pre-installed="true">
+    <name>WhatsApp</name>
+    <slug>whatsapp</slug>
+    <icon>whatsapp-icon.png</icon>
+    <colors>
+      <colorPrimary>#055E55</colorPrimary>
+      <colorPrimaryDark>#04554d</colorPrimaryDark>
+      <colorAccent>#18B0F5</colorAccent>
+      <colorText>#ffffff</colorText>
+      <colorIcon>#52C95D</colorIcon>
+    </colors>
+    <meta-data>
+      <author>Marijn Pool</author>
+      <description>Eenvoudig. Persoonlijk. Direct berichten uitwisselen.</description>
+      <size>78MB</size>
+      <release-date>10-08-2016</release-date>
+    </meta-data>
+  </app>
 </apps>
